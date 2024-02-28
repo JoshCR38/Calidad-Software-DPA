@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './App.css'; // Asegúrate de tener un archivo CSS para los estilos
+import './App.css'; // Archivo CSS para los estilos
 
 function App() {
   const [nombre, setNombre] = useState('');
@@ -18,7 +18,7 @@ function App() {
   }, [email, confirmarEmail]);
 
   const manejarEnvio = () => {
-    // Simular el envío del formulario
+    // Simular el envío de la informacion formulario
     console.log('Correo electrónico:', email);
   };
 
